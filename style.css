@@ -3,7 +3,7 @@ body * {
 }
 
 #nina {
-	max-width: 120px;
+	max-width: 180px;
 	border-radius: 90px;
 }
 
@@ -40,7 +40,8 @@ h2{
 }
 
 #person-stats{
-	margin-left: 15px;
+	margin-left: 25px;
+	margin-top: 30px;
 }
 
 #tag{

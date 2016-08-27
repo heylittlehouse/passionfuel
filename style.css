@@ -3,8 +3,8 @@ body * {
 }
 
 #nina {
-	max-width: 50px;
-	border-radius: 50px;
+	max-width: 120px;
+	border-radius: 90px;
 }
 
 a {
@@ -13,6 +13,11 @@ a {
 
 h1{
 	color: #9dd0c6;
+	font-size: 45px;
+}
+
+h2{
+	font-size: 35px;
 }
 
 #qmarks{
@@ -40,11 +45,13 @@ h1{
 
 #tag{
 	margin-top: -17px;
+	font-size: 30px;
 }
 
 #description{
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size: 30px;
 }
 
 header *{
@@ -54,9 +61,14 @@ header *{
 #navdrop{
 	margin-top: 30px;
 	margin-right: 5px;
+	font-size: 45px;
 }
 
 #story{
 	text-align: center;
+}
+
+#rest{
+	font-size: 30px;
 }
 

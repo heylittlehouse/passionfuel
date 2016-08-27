@@ -1,0 +1,62 @@
+body * {
+	font-family: Helvetica;
+}
+
+#nina {
+	max-width: 50px;
+	border-radius: 50px;
+}
+
+a {
+	color: #9dd0c6;
+}
+
+h1{
+	color: #9dd0c6;
+}
+
+#qmarks{
+	max-width: 100%;
+	border: solid 1px gray
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#person-stats{
+	margin-left: 15px;
+}
+
+#tag{
+	margin-top: -17px;
+}
+
+#description{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header *{
+	display: inline-block;
+}
+
+#navdrop{
+	margin-top: 30px;
+	margin-right: 5px;
+}
+
+#story{
+	text-align: center;
+}
+

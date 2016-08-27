@@ -60,7 +60,7 @@ header *{
 
 #navdrop{
 	margin-top: 30px;
-	margin-right: 5px;
+	margin-right: 25px;
 	font-size: 45px;
 }
 
@@ -72,3 +72,6 @@ header *{
 	font-size: 32px;
 }
 
+#username{
+	font-size: 40px;
+}

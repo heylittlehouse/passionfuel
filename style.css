@@ -20,7 +20,7 @@ h2{
 	font-size: 38px;
 }
 
-#qmarks{
+#bridge{
 	max-width: 100%;
 	border: solid 1px gray
 }
@@ -46,7 +46,7 @@ h2{
 
 #tag{
 	margin-top: -17px;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 #description{

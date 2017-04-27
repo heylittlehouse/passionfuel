@@ -3,7 +3,19 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<title>Go Further | PassionFuel</title>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function() {
+                if ($(this).scrollTop() >= 90) {
+                    $('header').css({"position": "fixed", "z-index": 5, "top": 0, "width": "100%"});
+                }else{
+                    $('header').css({"position": "relative", "z-index": "initial"});
+                }
+            });
+        })
+    </script>
 </head>
 <body>
 	<header class="clear">
@@ -13,21 +25,20 @@
 
 	<div id="main">
 		<div id="banner" class="section">
-			<img id="bridge" src="bridge.jpeg">
+			<img id="bridge" src="movie_img.JPG">
 		</div>
 		<hr>
 		<div id="description" class="section clear">
 			<div id="titletag">
-				<h2 id="title">The Sugar Fly Never Went Down</h2>
-				<p id="tag">A work in progress</p>
+				<h2 id="title">Dear Charlotte</h2>
 			</div>
 			<div id="person" class="clear">
 				<div id="profile" class="left">
 					<img id="nina" src="nina.jpg">
 				</div>
 				<div id="person-stats" class="left">
-					<a id="username">natgurl93</a>
-					<p id="location">Redondo Beach, United States</p>
+					<a id="username">gnatattack93</a>
+					<p id="location">Redondo Beach, CA</p>
 				</div><!-- person-stats-->
 			</div><!-- person-->
 			<div id="raised-bar">
@@ -48,6 +59,43 @@
 				<hr>
 				<a id="story" href="#"><p>READ THE STORY</p></a>
 				<hr>
+				<p id="story-text">&quot;Dear Charlotte&quot; is the story of Charles and Charlotte Moore &minus; Two young
+
+lovers who despite incredible odds, stayed true to each other through nothing but
+
+love letters during the Vietnam war. It&#39;s also a true story of the people who raised
+
+me: My grandparents.<br/><br/>
+
+My grandparents met in the 50&#39;s and became high school sweethearts. When my
+
+grandfather joined the army after graduation, it put their love for each other to the
+
+test. Being immediately sent to boot camp and subsequently shipped out to aid in
+
+the conflict in Vietnam forced my grandfather to find a way to communicate with the
+
+love of his life despite the distance &minus; This is when he wrote his first letter,
+
+For several years, these letters were my grandparents only form of communication.
+
+Having lost my parents at a young age, my grandparents took me in. Seeing how
+
+affected I was by my parents passing, my grandmother gave me the letters the
+
+illustrate the kind of love that built the family I come from. Many kids have their
+
+favorite books, but my earliest memories of enjoying myself reading are of these
+
+letters.<br/><br/>
+
+The only thing my grandparents loved as much as each other was going to the
+
+movies. This was evident in their letters by how much they would gush over the
+
+latest releases they&#39;d seen. Seeking out the movies mentioned in my grandparents
+
+letters is where my own love of the movies was born.</p>
 			</div>
 			<div id="perks">
 				<p>PERKS</p>
